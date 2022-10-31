@@ -18,7 +18,7 @@ console.log('Accelerating, 10 of power for 10 sec.')
 fordFocus.accelerate(10, 10)
 console.log(`New speed: ${fordFocus.speed}`)
 
-console.log('Cuhanging colour to black:')
+console.log('Changing colour to black:')
 fordFocus.color = 'black'
 console.log(`New color: ${fordFocus.color}`)
 
