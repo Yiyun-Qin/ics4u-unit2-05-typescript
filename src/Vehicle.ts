@@ -32,7 +32,6 @@ class Vehicle {
   }
 
   public status(): void {
-    console.log('Status:')
     console.log(` -> Speed: ${this.speed}`)
     console.log(` -> MaxSpeed: ${this.maximumSpeed}`)
     console.log(` -> Number of doors: ${this.doorNumber}`)
