@@ -3,15 +3,15 @@
  *
  * By:      Yiyun Qin
  * Version: 1.0
- * Since:   2022-09-23
+ * Since:   2022-10-27
  */
 
 class Vehicle {
-  private licensePlate: string
+  private readonly licensePlate: string
   public color: string
-  private doorNumber: number
+  private readonly doorNumber: number
   public speed: number = 0
-  private maximumSpeed: number
+  private readonly maximumSpeed: number
 
   // constructor
   public constructor(
